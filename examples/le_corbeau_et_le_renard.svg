@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="0.45587317"
      inkscape:cx="178.77779"
-     inkscape:cy="3163.1605"
+     inkscape:cy="3035.9321"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -434,12 +434,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
            x="215.51022"
            y="758.41974"
-           id="tspan145273">Le corbeau honteux et confus,</tspan><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="215.51022"
-           y="771.64886"
-           id="tspan145275">Jura, mais un peu tard, qu’on ne l’y prendrait plus. </tspan></text>
+           id="tspan145275" /></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 167.89445,738.83926 c 6.04321,-2.99908 12.10301,-5.97051 18.22015,-8.81714 0.4283,-0.19931 3.54032,-1.9268 4.42062,-1.8548"
@@ -505,5 +500,21 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 238.45267,1081.4496 c 23.31238,5.821 46.28903,12.852 69.437,19.2674 1.9427,0.5384 15.55512,5.8693 16.86914,2.3214"
        id="path152390" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="39.626637"
+       y="952.9361"
+       id="text103914-3"><tspan
+         sodipodi:role="line"
+         id="tspan103912-8"
+         style="stroke-width:0.264583"
+         x="39.626637"
+         y="952.9361">Le corbeau honteux et confus,</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="39.626637"
+         y="966.16522"
+         id="tspan157969">Jura, mais un peu tard, qu’on ne l’y prendrait plus. </tspan></text>
   </g>
 </svg>
