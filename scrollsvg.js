@@ -1,7 +1,9 @@
-function getScrollTime() {    return document.body.scrollTop + window.innerHeight / 2}
+function getScrollTime() { return document.body.scrollTop + window.innerHeight / 2 }
 const updateFunctions = []; //functions to be executed for updating the scroll SVG
 const update = () => { for (const f of updateFunctions) f(); };
 let slows = [];
+
+let currentElementTimeLine = undefined;
 let t; // global variables (because of scripts in SVG file). It is the time in [0, 1] in bar in the timeline
 
 /**
@@ -39,6 +41,7 @@ function analyzeSVG() {
     for (const el of document.querySelectorAll('*')) {
         if (el.onload) {
             updateFunctions.push(() => {
+                currentElementTimeLine = el;
                 const r = getRect(el);
                 r.top -= window.innerHeight / 2
                 r.bottom -= window.innerHeight / 2
@@ -130,9 +133,13 @@ function visible(id, predicate = () => 0 <= t && t < 1) {
  * @returns execute f when t is i [0, 1]
  */
 function execute(f) {
-    if (t < 0 || t > 1) return;
+    t = Math.max(0, Math.min(1, t));
     f();
 }
 
-
+function follow(id) {
+    const r = getRect(currentElementTimeLine)
+    const height = r.bottom - r.top;
+    execute(() => document.getElementById(id).style.transform = `translate(0px, ${t * height / 4}px)`)
+}
 /************************************************************ */
