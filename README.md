@@ -11,3 +11,11 @@ Make animated SVG when scrolling. This tool may be used for instance for making 
 ## Examples
 
 - Le corbeau et le renard. Jean de la Fontaine https://francoisschwarzentruber.github.io/scrollsvg?file=examples/le_corbeau_et_le_renard.svg
+
+
+## Roadmap
+
+This tool is work in progress. To be done: 
+- responsive on smartphones
+- animations that follow a path
+- changes of colors, sizes
