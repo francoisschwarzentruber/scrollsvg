@@ -8,3 +8,6 @@ Make animated SVG when scrolling. This tool may be used for instance for making 
 - make some part of visible/invisible depending on how much the user scrolled
 - make animations such as translations, rotations when the user is scrolling
 
+## Examples
+
+- Le corbeau et le renard. Jean de la Fontaine https://francoisschwarzentruber.github.io/scrollsvg?file=examples/le_corbeau_et_le_renard.svg
